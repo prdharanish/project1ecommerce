@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BUYBUDDY</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar">
+      <h1>BUYBUDDY</h1>
+      <div class="navbar-links">
+        <p class="navbar-link"><a href="index.html">Home</a></p>
+        <p class="navbar-link"><a href="collection.html">Collections</a></p>
+        <p class="navbar-link"><a href="contact.html">Contact</a></p>
+      </div>
+      <div class="navbar-menu-toggle" onclick="shownavbar()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <!--side navbar-->
+    <div class="side-navbar">
+      <p style="text-align: right" onclick="closenavbar()">
+        <i class="fa-solid fa-xmark"></i>
+      </p>
+      <div class="side-navbar-links">
+        <p class="side-navbar-link"><a href="index.html">Home</a></p>
+        <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+        <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+      </div>
+    </div>
+
+   <!--contact-->
+   
+      <!-- Contact Section -->
+<div class="contact">
+  <div class="contact-container">
+    <h3>Contact Us</h3>
+
+    <p>Name</p>
+    <input type="text" placeholder="Enter your name" />
+
+    <p>Email</p>
+    <input type="email" placeholder="Enter your email" />
+
+    <p>Message</p>
+    <textarea placeholder="Enter your message"></textarea>
+
+    <button type="submit" onclick="change()">Submit</button>
+  </div>
+</div>
+
+    <!--footer-->
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-box-1">
+          <h2>BUYBUDDY</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Asperiores, quam.
+          </p>
+          <div class="footer-icons">
+            <i class="fa-brands fa-instagram" style="color: #ffffff"></i>
+            <i class="fa-brands fa-twitter" style="color: #ffffff"></i>
+            <i class="fa-brands fa-facebook" style="color: #ffffff"></i>
+          </div>
+        </div>
+      </div>
+      <p>@2025 buybuddy.com</p>
+    </div>
+  </body>
+</html>
+<script src="collection.js"></script>
+<script src="index.js"></script>
